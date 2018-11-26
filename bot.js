@@ -18,11 +18,11 @@ client.on('message', message => {
   client.user.setActivity(argresult, {type:'WATCHING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else
-  if (message.content.startsWith(adminprefix + 'ls')) {
+  if (message.content.startsWith(adminprefix + 'kfkfkfk')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.send(`**✅   ${argresult}**`)
   } else
-  if (message.content.startsWith(adminprefix + 'hkhkhkhkkhkkh')) {
+  if (message.content.startsWith(adminprefix + 'st')) {
     client.user.setGame(argresult, "https://www.twitch.tv/idk");
       message.channel.send(`**✅**`)
   }
